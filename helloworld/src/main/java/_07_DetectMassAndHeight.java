@@ -12,9 +12,9 @@ import tech.units.indriya.unit.Units;
 public class _07_DetectMassAndHeight {
 
 	public static void main(String[] args) {
-		final Quantity<?> first = Quantities.getQuantity("180 cm");
+		final Quantity<?> first = Quantities.getQuantity("188 cm");
 		System.out.println(first);
-		final Quantity<?> second = Quantities.getQuantity("80 kg");
+		final Quantity<?> second = Quantities.getQuantity("90 kg");
 		System.out.println(second);
 		Quantity<Mass> mass = null;
 		Quantity<Length> height = null;

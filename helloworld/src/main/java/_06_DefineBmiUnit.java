@@ -9,9 +9,9 @@ import tech.units.indriya.unit.Units;
 public class _06_DefineBmiUnit {
 
 	public static void main(String[] args) {
-		final Quantity<?> mass = Quantities.getQuantity("75 kg");
+		final Quantity<?> mass = Quantities.getQuantity("88 kg");
 		System.out.println(mass);
-		final Quantity<?> height = Quantities.getQuantity("1.80 m");
+		final Quantity<?> height = Quantities.getQuantity("1.88 m");
 		System.out.println(height);
 		final Quantity<Bmi> bmi = mass.divide(height).divide(height).asType(Bmi.class);
 		System.out.println(bmi);
